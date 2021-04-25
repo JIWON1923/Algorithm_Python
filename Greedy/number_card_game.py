@@ -8,4 +8,4 @@ mincard = []
 for i in range(column):
   mincard.append(min(cards[i]))
 # 그 중에 제일 큰 카드 값 찾기
-print(max(mincard)기
+print(max(mincard))
