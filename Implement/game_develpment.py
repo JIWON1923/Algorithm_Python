@@ -1,37 +1,40 @@
 n, m = map(int, input().split())
 a, b, d = map(int, input().split())
-input_data = list(map(int, input().split()) for _ in range(m))
+input_data = [list(map(int, input().split())) for _ in range(m)]
 
-direction = [0,1,2,3]
-move_type = [(0,-1), (-1,0), (0,1), (1,0)]
-count = 0
+direction = [ (-1,0), (0,1), (1,0), (0,-1) ]
+input_data[a][b] = 1
+count = 1
+turn = 0
 
-while(1):
+def left():
+  global d
+  d -= 1
+  if d <= 0: d = 3
 
-  for i in direction:
-    if i == d:
-      d += 1
-      for move in move_type:
-        da = a + move[1]
-        db = b + move[0]
+while True:
+  left()
+  da = a + direction[d][0]
+  db = b + direction[d][1]
 
-        if input_data[db, da] == 0:
-          a = da
-          b = db
-          input_data[b][a] = 1
-          count += 1
-
-        elif input_data[db, da] == 1:
-          d += 1
-
-  da = move_type[d][1]
-  db = move_type[d][0]
-  if (input_data[db, da] == 0):
-    a = da
-    b = db
-    input_data[b][a] = 1
+  if input_data[da][db] == 0:
+    input_data[da][db] = 1
     count += 1
+    turn = 0
+    a, b = da, db
 
-  else: break
+  else: 
+    turn += 1
+  
+  if turn == 4:
+    da = a + direction[d][0] * -1
+    db = b + direction[d][1] * -1
+    if input_data[da][db] == 0:
+      input_data[da][db] = 1
+      count += 1
+      turn = 0
+      a, b = da, db
+    else: 
+      break
 
 print(count)
