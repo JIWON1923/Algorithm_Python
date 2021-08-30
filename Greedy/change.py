@@ -1,10 +1,8 @@
-change = int(input())
-coin = [500, 100, 50, 10]
-i, result = 0, 0
-while (change != 0 and i < 4):
-  if change >= coin[i]:
-    change -= coin[i]
-    result += 1
-  else:
-    i += 1
-print (result)
+n = 1000
+count = 0
+coin_type=[500,100,50,10]
+
+for coin in coin_type:
+    count += n//coin
+    n %= coin
+print(count)
