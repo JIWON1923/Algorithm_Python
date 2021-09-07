@@ -11,3 +11,4 @@ for alpha in set_alphabet:
         max_count = now
     elif max_count == now: max_alpha = '?'
 print(max_alpha)
+# 짧게 바꿔야됑
