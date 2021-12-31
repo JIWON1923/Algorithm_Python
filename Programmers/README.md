@@ -29,7 +29,7 @@
 - [x] [제일 작은 수 제거하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/removeTheSmallestNumber.py)
 - [ ] 정수 제곱근 판별
 - [ ] 정수 내림차순으로 배치하기
-- [x] 자연수 뒤집어 배열로 만들기(https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/flipTheNumberToArray.py)
+- [x] [자연수 뒤집어 배열로 만들기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/flipTheNumberToArray.py)
 - [x] [자릿수 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/addDigits.py)
 - [ ] 이상한 문자 만들기
 - [x] [약수의 합](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sumOfTheDivisor.py)
@@ -37,7 +37,7 @@
 - [x] [문자열을 정수로 바꾸기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/StringToInteger.py)
 - [x] [수박수박수박수박수박수?](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/수박수박수박수박수박수%3F.py)
 - [ ] 소수찾기
-- [x] 서울에서 김서방 찾기(https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/findingKimInSeoul.py)
+- [x] [서울에서 김서방 찾기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/findingKimInSeoul.py)
 - [ ] 문자열 다루기 기본
 - [x] [문자열 내림차순으로 배치하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sortStringsInDecending.py)
 - [x] [문자열 내 p와 y의 개수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/theNumberInTheCertainString.py)
