@@ -59,7 +59,7 @@
 
 ### 위클리 챌린지
 - [x] [최소 직사각형](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/atLeastARectangle.py)
-- [ ] 부족한 금액 계산하기
+- [x] [부족한 금액 계산하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/calculatingTheInsufficientAmount.py)
 
 ### 월간 코드 챌린지 시즌1
 - [ ] 두 개 뽑아서 더하기
