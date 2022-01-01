@@ -28,7 +28,7 @@
 - [x] [짝수와 홀수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/oddAndEven.py)
 - [x] [제일 작은 수 제거하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/removeTheSmallestNumber.py)
 - [ ] 정수 제곱근 판별
-- [x] 정수 내림차순으로 배치하기(https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sortNumberInDecending.py)
+- [x] [정수 내림차순으로 배치하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sortNumberInDecending.py)
 - [x] [자연수 뒤집어 배열로 만들기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/flipTheNumberToArray.py)
 - [x] [자릿수 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/addDigits.py)
 - [ ] 이상한 문자 만들기
