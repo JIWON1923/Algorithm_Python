@@ -38,7 +38,7 @@
 - [x] [수박수박수박수박수박수?](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/수박수박수박수박수박수%3F.py)
 - [ ] 소수찾기
 - [x] [서울에서 김서방 찾기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/findingKimInSeoul.py)
-- [ ] 문자열 다루기 기본
+- [x] [문자열 다루기 기본](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/basicOfHandlingString.py)
 - [x] [문자열 내림차순으로 배치하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sortStringsInDecending.py)
 - [x] [문자열 내 p와 y의 개수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/theNumberInTheCertainString.py)
 - [ ] 문자열 내 마음대로 정렬하기
