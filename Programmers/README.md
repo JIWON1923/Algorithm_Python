@@ -23,7 +23,7 @@
 - [x] [핸드폰 번호 가리기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/hidePhoneNumber.py)
 - [x] [하샤드 수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/hashardNumber.py)
 - [x] [평균 구하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/calculatingTheAvarage.py)
-- [ ] 콜라츠 추측
+- [x] [콜라츠 추측](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/guessCollatz.py)
 - [ ] 최대공약수와 최대공배수
 - [x] [짝수와 홀수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/oddAndEven.py)
 - [x] [제일 작은 수 제거하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/removeTheSmallestNumber.py)
