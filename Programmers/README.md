@@ -46,7 +46,7 @@
 - [x] [나누어 떨어지는 숫자 배열](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/dividedNumberList.py)
 - [ ] 같은 숫자는 싫어
 - [x] [가운데 글자 가져오기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/bringTheMiddleNumber.py)
-- [ ] 2016년
+- [x] [2016년](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/yearOf2016.py)
 
 ### KAKAO
 - [ ] [1차] 다트게임
