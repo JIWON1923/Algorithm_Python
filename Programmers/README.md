@@ -17,7 +17,7 @@
 ## Level 1
 
 ### 연습문제
-- [x] [직사각형 별찍기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/makingARectangleStars.py)
+- [x] [직사각형 별찍기 ✏️](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/makingARectangleStars.py)
 - [x] [x만큼 간격이 있는 n개의 숫자](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/numbersSpacedByX.py)
 - [ ] 행렬의 덧셈
 - [x] [핸드폰 번호 가리기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/hidePhoneNumber.py)
@@ -27,7 +27,7 @@
 - [ ] 최대공약수와 최대공배수
 - [x] [짝수와 홀수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/oddAndEven.py)
 - [x] [제일 작은 수 제거하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/removeTheSmallestNumber.py)
-- [ ] 정수 제곱근 판별
+- [x] [정수 제곱근 판별](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/DeterminingTheSquareRootOfAnInteger.py)
 - [x] [정수 내림차순으로 배치하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sortNumberInDecending.py)
 - [x] [자연수 뒤집어 배열로 만들기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/flipTheNumberToArray.py)
 - [x] [자릿수 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/addDigits.py)
@@ -54,7 +54,7 @@
 - [ ] 실패율
 - [x] [크레인 인형뽑기 게임](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/crewMachineGame.py)
 - [ ] 키패드 누르기
-- [x] [숫자 문자열과 영단어✏️](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/numberStringAndWords.py)
+- [x] [숫자 문자열과 영단어 ✏️](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/numberStringAndWords.py)
 - [x] [신규 아이디 추천](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/IDRecommendation.py)
 
 ### 위클리 챌린지
@@ -79,7 +79,7 @@
 - [ ] 포켓몬
 
 ### Dev-Matching
-- [x] [로또의 최고 순위와 최저 순위✏️](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/lottosRankingPrediction.py)
+- [x] [로또의 최고 순위와 최저 순위 ✏️](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/lottosRankingPrediction.py)
 
 ### 기타
 - [x] 체육복
