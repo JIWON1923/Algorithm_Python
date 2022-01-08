@@ -50,7 +50,7 @@
 
 ### KAKAO
 - [ ] [1차] 다트게임
-- [x] [1차] 비밀지도(https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/secretMap.py)
+- [x] [[1차] 비밀지도](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/secretMap.py)
 - [ ] 실패율
 - [x] [크레인 인형뽑기 게임](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/crewMachineGame.py)
 - [ ] 키패드 누르기
