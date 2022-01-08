@@ -1,14 +1,17 @@
 # Algorithm
 
-## [Greedy](#greedy)
-## [Implement](#implement)
-## [DFS/BFS](#dfs/bfs)
-## [Sort](#sort)
-## [Binary Search](#binary-search)
-## [Dynamic Programming](#dynamic-programming)
-## [Shortest Path](#shortest-path)
-## [Graph](#graph)
-## [Programmers](#programmers)
+## 이것이 코딩테스트다
+- [Greedy](#greedy)
+- [Implement](#implement)
+- [DFS/BFS](#dfs/bfs)
+- [Sort](#sort)
+- [Binary Search](#binary-search)
+- [Dynamic Programming](#dynamic-programming)
+- [Shortest Path](#shortest-path)
+- [Graph](#graph)
+- [기타](#기타)
+
+## [Programmers](https://github.com/JIWON1923/Algorithm/tree/master/Programmers)
 
 ---
 
@@ -19,7 +22,6 @@
 
 ---
 
-***
 ## Greedy
 #### - 현재 상황에서 지금 당장 좋은 것만 고르는 방법
 #### - 나중에 미칠 영향은 고려하지 않는다.
@@ -30,7 +32,7 @@
 - 숫자 카드 게임 ( number_card_game.py )
 - 1이 될 때 까지 ( until_1.py )
 
-***
+---
 ## Implement (구현)
 #### - 완전 탐색 : 모든 경우의 수를 주저 없이 다 계산하는 방법
 #### - 시뮬레이션 : 문제에서 제시한 알고리즘을 한 단계씩 차례대로 직접 수행하는 방법
@@ -42,6 +44,7 @@
 - 왕실의 나이트 ( royal_night.py )
 - 게임 개발 ( game_development.py )
 
+---
 ## DFS/BFS
 
 
@@ -55,4 +58,14 @@
 
 ## Graph
 
+## 기타
+- 소수 찾기
+    - math.sqrt를 사용하여 시간 복잡도 단축
+- 에라토스테네스의 체
+    - 여러 개의 수가 소수인지 아닌지 판별
+    - O(NloglogN)
+    - 메모리가 많이 필요하다.
+    - 1,000,000이내로 주어지는 경우에 사용한다.
+        - 이론상 400만 번 정도의 연산으로 해결 가능
+         
 ## Programmers
