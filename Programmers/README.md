@@ -36,7 +36,7 @@
 - [ ] 시저 암호
 - [x] [문자열을 정수로 바꾸기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/StringToInteger.py)
 - [x] [수박수박수박수박수박수?](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/수박수박수박수박수박수%3F.py)
-- [ ] 소수찾기
+- [x] [소수찾기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/findingThePrimeNumber.py)
 - [x] [서울에서 김서방 찾기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/findingKimInSeoul.py)
 - [x] [문자열 다루기 기본](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/basicOfHandlingString.py)
 - [x] [문자열 내림차순으로 배치하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sortStringsInDecending.py)
