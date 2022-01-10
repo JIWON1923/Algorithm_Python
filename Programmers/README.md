@@ -65,7 +65,7 @@
 - [x] [두 개 뽑아서 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/twoPickAndAddThem.py)
 - [x] [3진법 뒤집기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/flipTheTernary.py)
 - [x] [내적](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/innerProduct.py)
-- [ ] 약수의 개수와 덧셈
+- [x] [약수의 개수와 덧셈](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/SumOfTheNumberAndDividor.py)
 - [x] [음양 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/negativeAndPositive.py)
 - [ ] 나머지가 1이 되는 수 찾기
 - [x] [없는 숫자 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sumOfCertainNumber.py)
