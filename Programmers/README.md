@@ -44,7 +44,7 @@
 - [ ] 문자열 내 마음대로 정렬하기
 - [x] [두 정수 사이의 합](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/theSumBetweenTheTwoInteger.py)
 - [x] [나누어 떨어지는 숫자 배열](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/dividedNumberList.py)
-- [ ] 같은 숫자는 싫어
+- [x] [같은 숫자는 싫어](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/IDon'tWantTheSameNumber.py)
 - [x] [가운데 글자 가져오기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/bringTheMiddleNumber.py)
 - [x] [2016년](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/yearOf2016.py)
 
