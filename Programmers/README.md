@@ -76,7 +76,7 @@
 
 
 ### 찾아라 프로그래밍 마에스터
-- [ ] 포켓몬
+- [x] [포켓몬](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/pokemon.py)
 
 ### Dev-Matching
 - [x] [로또의 최고 순위와 최저 순위 ✏️](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/lottosRankingPrediction.py)
