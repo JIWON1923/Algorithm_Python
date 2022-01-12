@@ -4,6 +4,7 @@
 프로그래머스 코딩테스트 연습 문제의 코드를 올립니다.
 
 블로그로 게시한 내용은 ✏️로 표시합니다.
+✏️을 누르면 블로그 설명으로 이동합니다!
 ---
 - [Level 1](#level-1)
 - [Level 2](#level-2)
@@ -17,8 +18,8 @@
 ## Level 1
 
 ### 연습문제
-- [x] [직사각형 별찍기 ✏️](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/makingARectangleStars.py)
-- [x] [x만큼 간격이 있는 n개의 숫자 ✏️](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/numbersSpacedByX.py)
+- [x] [직사각형 별찍기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/makingARectangleStars.py)[ ✏️](https://zest1923.tistory.com/62)
+- [x] [x만큼 간격이 있는 n개의 숫자](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/numbersSpacedByX.py)[ ✏️](https://zest1923.tistory.com/63)
 - [ ] 행렬의 덧셈
 - [x] [핸드폰 번호 가리기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/hidePhoneNumber.py)
 - [x] [하샤드 수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/hashardNumber.py)
@@ -54,7 +55,7 @@
 - [ ] 실패율
 - [x] [크레인 인형뽑기 게임](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/crewMachineGame.py)
 - [ ] 키패드 누르기
-- [x] [숫자 문자열과 영단어 ✏️](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/numberStringAndWords.py)
+- [x] [숫자 문자열과 영단어](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/numberStringAndWords.py)[ ✏️](https://zest1923.tistory.com/61)
 - [x] [신규 아이디 추천](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/IDRecommendation.py)
 
 ### 위클리 챌린지
@@ -65,7 +66,7 @@
 - [x] [두 개 뽑아서 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/twoPickAndAddThem.py)
 - [x] [3진법 뒤집기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/flipTheTernary.py)
 - [x] [내적](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/innerProduct.py)
-- [x] [약수의 개수와 덧셈](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/SumOfTheNumberAndDividor.py)
+- [x] [약수의 개수와 덧셈](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/SumOfTheNumberAndDividor.py)[ ✏️](https://zest1923.tistory.com/64)
 - [x] [음양 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/negativeAndPositive.py)
 - [x] [나머지가 1이 되는 수 찾기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/findTheNumberThatRemainderIs1.py)
 - [x] [없는 숫자 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sumOfCertainNumber.py)
@@ -79,7 +80,7 @@
 - [x] [포켓몬](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/pokemon.py)
 
 ### Dev-Matching
-- [x] [로또의 최고 순위와 최저 순위 ✏️](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/lottosRankingPrediction.py)
+- [x] [로또의 최고 순위와 최저 순위](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/lottosRankingPrediction.py)[ ✏️](https://zest1923.tistory.com/60)
 
 ### 기타
 - [x] 체육복
