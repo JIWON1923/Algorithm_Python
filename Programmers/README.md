@@ -67,7 +67,7 @@
 - [x] [내적](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/innerProduct.py)
 - [x] [약수의 개수와 덧셈](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/SumOfTheNumberAndDividor.py)
 - [x] [음양 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/negativeAndPositive.py)
-- [x] [나머지가 1이 되는 수] 찾기(https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/findTheNumberThatRemainderIs1.py)
+- [x] [나머지가 1이 되는 수 찾기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/findTheNumberThatRemainderIs1.py)
 - [x] [없는 숫자 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sumOfCertainNumber.py)
 
 ### Summer/Winter Coding
