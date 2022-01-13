@@ -1,13 +1,14 @@
-# 투포인터 연습 후 커밋하기 !!
+def solution(N, stages):
+    person = len(stages)
+    result = []
+    fail = [stages.count(i) for i in range(1, N + 1)]
 
-N = 5
-stages = [2, 1, 2, 6, 2, 4, 3, 3]
+    for i in range(len(fail)):
+        if not person:
+            result.append((0, i + 1))
+            continue
+        result.append((fail[i] / person, i + 1))
+        person -= fail[i]
 
-fail = [stages.count(i) for i in range(1, N+1)]
-result = []
-person = len(stages)
-for i in fail:
-    result.append(i/person)
-    person -= i
-print(fail)
-print(result)
+    result.sort(key=lambda x: (x[0], -x[1]), reverse=True)
+    return [i[1] for i in result]
