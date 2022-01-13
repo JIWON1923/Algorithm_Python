@@ -52,7 +52,7 @@
 ### KAKAO
 - [ ] [1차] 다트게임
 - [x] [[1차] 비밀지도](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/secretMap.py)
-- [ ] 실패율
+- [x] [실패율](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/failureRate.py)
 - [x] [크레인 인형뽑기 게임](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/crewMachineGame.py)
 - [ ] 키패드 누르기
 - [x] [숫자 문자열과 영단어](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/numberStringAndWords.py)[ ✏️](https://zest1923.tistory.com/61)
