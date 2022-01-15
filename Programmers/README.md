@@ -20,7 +20,7 @@
 ### 연습문제
 - [x] [직사각형 별찍기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/makingARectangleStars.py)[ ✏️](https://zest1923.tistory.com/62)
 - [x] [x만큼 간격이 있는 n개의 숫자](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/numbersSpacedByX.py)[ ✏️](https://zest1923.tistory.com/63)
-- [ ] 행렬의 덧셈
+- [x] [행렬의 덧셈](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sumOfMatrix.py)
 - [x] [핸드폰 번호 가리기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/hidePhoneNumber.py)
 - [x] [하샤드 수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/hashardNumber.py)
 - [x] [평균 구하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/calculatingTheAvarage.py)
