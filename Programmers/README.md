@@ -42,7 +42,7 @@
 - [x] [문자열 다루기 기본](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/basicOfHandlingString.py)
 - [x] [문자열 내림차순으로 배치하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sortStringsInDecending.py)
 - [x] [문자열 내 p와 y의 개수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/theNumberInTheCertainString.py)
-- [ ] 문자열 내 마음대로 정렬하기
+- [x] [문자열 내 마음대로 정렬하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sortingTheStringsHoweverIWant.py)
 - [x] [두 정수 사이의 합](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/theSumBetweenTheTwoInteger.py)
 - [x] [나누어 떨어지는 숫자 배열](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/dividedNumberList.py)
 - [x] [같은 숫자는 싫어](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/IDon'tWantTheSameNumber.py)
