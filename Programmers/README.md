@@ -51,7 +51,7 @@
 
 ### KAKAO
 - [x] [신고 결과 받기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/getTheReportResult.py)[ ✏️](https://zest1923.tistory.com/65)
-- [ ] [1차] 다트게임
+- [x] [[1차] 다트게임](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/dartGame.py)
 - [x] [[1차] 비밀지도](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/secretMap.py)
 - [x] [실패율](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/failureRate.py)
 - [x] [크레인 인형뽑기 게임](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/crewMachineGame.py)
