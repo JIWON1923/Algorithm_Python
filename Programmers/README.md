@@ -25,7 +25,7 @@
 - [x] [하샤드 수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/hashardNumber.py)
 - [x] [평균 구하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/calculatingTheAvarage.py)
 - [x] [콜라츠 추측](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/guessCollatz.py)
-- [ ] 최대공약수와 최대공배수
+- [x] [최대공약수와 최대공배수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/LargestCommonMultipleAndGreatestCommonDivisor.py)
 - [x] [짝수와 홀수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/oddAndEven.py)
 - [x] [제일 작은 수 제거하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/removeTheSmallestNumber.py)
 - [x] [정수 제곱근 판별](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/DeterminingTheSquareRootOfAnInteger.py)
@@ -34,7 +34,7 @@
 - [x] [자릿수 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/addDigits.py)
 - [x] [이상한 문자 만들기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/makeAWeriedText.py)
 - [x] [약수의 합](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sumOfTheDivisor.py)
-- [x] [시저 암호](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/caesarCipher.py)
+- [x] [시저 암호](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/caesarCipher.py)[ ✏️](https://zest1923.tistory.com/66)
 - [x] [문자열을 정수로 바꾸기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/StringToInteger.py)
 - [x] [수박수박수박수박수박수?](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/수박수박수박수박수박수%3F.py)
 - [x] [소수찾기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/findingThePrimeNumber.py)
