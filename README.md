@@ -3,7 +3,7 @@
 ## 알고리즘
 - [Greedy](#greedy)
 - [Implement](#implement)
-- [DFS/BFS](#dfs/bfs)
+- [DFS/BFS](#dfs-bfs)
 - [Sort](#sort)
 - [Binary Search](#binary-search)
 - [Dynamic Programming](#dynamic-programming)
@@ -21,13 +21,13 @@
 - '가장 큰 순서', '가장 작은 순서' 등의 기준이 제시된다.
 
 - 예제
-    - 거스름돈 ( change.py )
-    - 큰 수의 법칙 ( law_of_large_number.py )
-    - 숫자 카드 게임 ( number_card_game.py )
-    - 1이 될 때 까지 ( until_1.py )
+    - [거스름돈](https://github.com/JIWON1923/Algorithm/blob/master/Greedy/change.py)
+    - [큰 수의 법칙](https://github.com/JIWON1923/Algorithm/blob/master/Greedy/law_of_large_number.py)
+    - [숫자 카드 게임](https://github.com/JIWON1923/Algorithm/blob/master/Greedy/number_card_game.py)
+    - [1이 될 때 까지](https://github.com/JIWON1923/Algorithm/blob/master/Greedy/until_1.py)
 
 ---
-## Implement (구현)
+## Implement
 - 완전 탐색 : 모든 경우의 수를 주저 없이 다 계산하는 방법
 - 시뮬레이션 : 문제에서 제시한 알고리즘을 한 단계씩 차례대로 직접 수행하는 방법
  - 언어 문법을 잘 이해하고, 경험이 있어야 바로 떠올릴 수 있다.
@@ -35,13 +35,13 @@
 - Pypy3를 지원한다면, 이를 이용해서 제출하자. (실행시간 줄어듦)
 
 - 예제
-    - 상하좌우 ( Top_Down_Left_Right.py )
-    - 시각 ( time.py )
-    - 왕실의 나이트 ( royal_night.py )
-    - 게임 개발 ( game_development.py )
+    - [상하좌우](https://github.com/JIWON1923/Algorithm/blob/master/Implement/Top_Down_Left_Right.py)
+    - [시각](https://github.com/JIWON1923/Algorithm/blob/master/Implement/time.py)
+    - [왕실의 나이트](https://github.com/JIWON1923/Algorithm/blob/master/Implement/royal_night.py)
+    - [게임 개발](https://github.com/JIWON1923/Algorithm/blob/master/Implement/game_develpment.py)
 
 ---
-## DFS/BFS
+## DFS-BFS
 ### DFS(Depth-First Search)
 - 깊이 우선 탐색으로, 그래프의 깊은 부분을 우선적으로 탐색한다.
 - 알고리즘
@@ -58,6 +58,9 @@
             if not visitied[i]:
                 dfs(graph, i, visited)
     ```
+- 예제
+    - [DFS](https://github.com/JIWON1923/Algorithm/blob/master/DFS_BFS/DFS.py)
+    - 
     
 
 ### BFS(Breadth-First Search)
