@@ -98,7 +98,7 @@
 - [ ] 행렬의 곱셈
 - [ ] 피보나치 수
 - [ ] 최솟값 만들기
-- [x] 최댓값과 최솟값
+- [x] [최댓값과 최솟값](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level2/maxValueAndMinValue.py)
 - [ ] 숫자의 표현
 - [ ] 땅따먹기
 - [ ] 다음 큰 숫자
