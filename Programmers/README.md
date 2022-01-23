@@ -97,7 +97,7 @@
 - [ ] JadenCase 문자열 만들기
 - [ ] 행렬의 곱셈
 - [ ] 피보나치 수
-- [ ] 최솟값 만들기
+- [x] [최솟값 만들기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level2/makingTheMinimumValue.py)
 - [x] [최댓값과 최솟값](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level2/maxValueAndMinValue.py)
 - [ ] 숫자의 표현
 - [ ] 땅따먹기
