@@ -88,6 +88,92 @@
     
     
 ## Sort
+- 선택 정렬
+    - 매번 작은 것을 선택하여 정렬하는 알고리즘
+    - 가장 작은 데이터를 선택해 맨 앞에 있는 데이터와 바꾸고, 그 다음 작은 데이터를 선택해 앞에서 두 번째 데이터와 바꾸는 과정을 반복하여 정렬하는 것이다.
+    - 시간복잡도 O(N^2)
+    
+    
+    ```python
+    array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+    
+    for i in range(len(array)):
+        min_index = i
+        for j in range(i+1, len(array)):
+            if array[min_index] > array[j]:
+                min_index = j
+        array[i], array[min_index] = array[min_index], array[i] # swap
+    
+    print(array)
+    ```
+    
+    
+- 삽입 정렬
+    - 데이터를 하나씩 확인해서 각 데이터를 적절한 위치에 삽입하자
+    - 선택 정렬보다 실행 시간 측면에서 더 효율적이다.
+    - 필요할 때에만 위치를 바꾸므로 **데이터가 거의 정렬되어 있을 때** 효율적이다.
+    - 데이터가 적절한 위치에 들어가기 이전, 그 앞까지의 데이터는 이미 정렬되어있다고 가정한다. 정렬되어 있는 데이터 리스트에서 적절한 위치를 찾은 후 그 위치에 삽입된다.
+    - 시간복잡도 O(N^2), 최선의 경우 O(N)
+        
+    
+    ```python
+    array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+    for i in range(1, len(array)): # 첫번째 원소는 존재만으로 정렬되어있음을 가정
+        for j in range(i, 0, -1) # i부터 첫번째까지 탐색
+            if array[j] < array[j-1]:
+                array[j], array[j-1] = array[j-1], array[j]
+            else:
+                break
+    
+    print(array)
+    ```
+    
+    
+- 퀵 정렬
+    - 기준 데이터(pivot)을 설정하고, 그 기준보다 큰 데이터와 작은 데이터의 위치를 바꾼다.
+    - 시간복잡도 O(NlogN)
+    
+    
+    ```python
+    array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+    
+    def quick_sort(array):
+        if len(array) <= 1: # 리스트가 하나 이하의 원소라면
+            return array
+            
+        pivot = array[0]
+        tail = array[1:] # 피벗을 제외한 리스트
+        
+        left_side = [x for x in tail if x <= pivot]
+        right_side = [x for x in tail if x > pivot]
+        
+        return quick_sort(left_side) + [pivot] + quick_sort(right_side)
+    
+    print(quick_sort(array))
+    ```
+    
+    
+- 계수 정렬
+    - **특정한 조건이 부합할 때**에만 사용할 수 있지만, 매우 빠른 정렬 알고리즘
+    - 특정 조건: 데이터의 크기 범위가 제한되어 정수 형태로 표현할 수 있을 때
+    - 일반적으로 가장 큰 데이터와 가장 작은 데이터의 차이가 1,000,000을 넘지 않을 때 효과적으로 사용 가능하다.
+    - 데이터의 값을 비교(비교 기반 정렬 알고리즘)하는 것이 아니라 별도의 리스트를 선언하여 정렬에 대한 정보를 담는다.
+    - 시간복잡도 O(N + K), N: 데이터의 개수, K: 데이터 중 최댓값의 크기
+    
+    
+    ```python
+    array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+    count = [0] * (max(array) + 1)
+    
+    for i in range(len(array)):
+        count[array[i]] += 1
+    
+    for i in range(len(count)):
+        for j in range(count[i]):
+            print(i, end = ' ')
+    ```
+    
+    
 
 ## Binary Search
 
