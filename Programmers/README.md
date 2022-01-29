@@ -96,7 +96,7 @@
 - [ ] N개의 최소공배수
 - [ ] JadenCase 문자열 만들기
 - [ ] 행렬의 곱셈
-- [x] 피보나치 수(https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level2/fibonacciNumbers.py)
+- [x] [피보나치 수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level2/fibonacciNumbers.py)
 - [x] [최솟값 만들기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level2/makingTheMinimumValue.py)
 - [x] [최댓값과 최솟값](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level2/maxValueAndMinValue.py)
 - [ ] 숫자의 표현
