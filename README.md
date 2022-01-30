@@ -58,9 +58,6 @@
             if not visitied[i]:
                 dfs(graph, i, visited)
     ```
-- 예제
-    - [DFS](https://github.com/JIWON1923/Algorithm/blob/master/DFS_BFS/DFS.py)
-    - 
     
 
 ### BFS(Breadth-First Search)
@@ -85,8 +82,16 @@
                     queue.append(i)
                     visited[i] = True
     ```
+   
     
     
+- 예제
+    - [DFS](https://github.com/JIWON1923/Algorithm/blob/master/DFS_BFS/DFS.py)
+    - [BFS](https://github.com/JIWON1923/Algorithm/blob/master/DFS_BFS/BFS.py)
+    - [음료수 얼려 먹기](https://github.com/JIWON1923/Algorithm/blob/master/DFS_BFS/freeze_A_Drink_best.py)
+    - [미로 탈출](https://github.com/JIWON1923/Algorithm/blob/master/DFS_BFS/maze_best.py)
+---
+
 ## Sort
 - 선택 정렬
     - 매번 작은 것을 선택하여 정렬하는 알고리즘
@@ -173,8 +178,13 @@
             print(i, end = ' ')
     ```
     
+   
+- 예제
+    - [위에서 아래로](https://github.com/JIWON1923/Algorithm/blob/master/Sort/Top_Down.py)
+    - [성적이 낮은 순서로 학생 출력하기](https://github.com/JIWON1923/Algorithm/blob/master/Sort/InOrderOf_Score.py)
+    - [두 배열의 원소 교체](https://github.com/JIWON1923/Algorithm/blob/master/Sort/Replacement_Array.py)
     
-
+---
 ## Binary Search
 
 ## Dynamic Programming
