@@ -186,7 +186,91 @@
     
 ---
 ## Binary Search
+- 순차 탐색
+    - 리스트 안에 있는 특정한 데이터를 찾기 위해 앞에서부터 데이터를 하나씩 차례대로 확인하는 방법이다.
+    
+    
+    ```python
+    def sequential_search(n, target, array):
+        for i in range(n):
+            if array[i] == target:
+                return i + 1 #현재 위치 반한
+    array = input().split()
+    target = input()
+    n = len(input_data)
+    
+    print(sequential_search(n, target, array))
+    ```
+    
+    
+- 이진 탐색
+    - 배열 내부 데이터가 **정렬되어 있을 때** 사용 가능한 알고리즘이다.
+    - 탐색 범위를 절반씩 좁혀가며 데이터를 탐색하는 특징이 있다.
+    - 시작점, 끝점, 중간점이라는 변수를 설정한다.
+    - 찾으려는 데이터와 중간점 위치에 있는 데이터를 반복적으로 비교하여 원하는 데이터를 찾는 과정이다.
+    - 시간복잡도: O(logN), 한 번 확인할 때 마다 원소의 개수가 절반씩 줄어들기 때문
+    
+    
+    
+    - 재귀함수로 구현한 이진탐색
+    
+    
+    ```python
+    def binary_search(array, targer, start, end):
+        if start > end:
+            return None
+        mid = (start + end) // 2
+        
+        if array[mid] == target:
+            return mid
+        
+        elif array[mid] > target:
+            return binary_search(array, target, start, mid-1)
+        else:
+            return binary_search(array, target, mid+1, end)
+            
+    n, target = list(map(int, input().split()))
+    array = list(map(int, input().split()))
+    
+    result = binary_search(array, target, 0, n-1)
+    
+    if result == None:
+        print("원소가 존재하지 않습니다.")
+    else:
+        print(result + 1)
+    ```
+    
+    
+    - 반복문으로 구현한 이진탐색
+    
+    
+    ```python
+    def binary_search(array, target, start, end):
+        while start <= end:
+            mid = (start + end) // 2
+            if array[mid] == target:
+                return mid
+            elif array[mid] > target:
+                end = mid - 1
+            else:
+                start = mid + 1
+        return None
+    ```
 
+
+- 트리 자료구조
+    - 트리는 부모 노드와 자식 노드의 관계로 표현된다.
+    - 트리의 최상단 노드를 루트 노드라고 한다.
+    - 트리의 최하단 노드를 단말 노드라고 한다.
+    - 트리에서 일부를 떼어내도 트리구조이며, 이를 서브트리라고 한다.
+    - 트리는 파일 시스템과 같이 계층적이고, 정렬된 데이터를 다루기 적합하다.
+    
+- 이진 탐색 트리
+    - 부모 노드보다 왼쪽 자식 노드가 작다
+    - 부모 노드보다 오른쪽 자식 노드가 크다
+    - 왼쪽 자식 노드 < 부모 노드 < 오른쪽 자식 노드
+    
+    
 ## Dynamic Programming
 
 ## Shortest Path
