@@ -270,7 +270,8 @@
     - 부모 노드보다 오른쪽 자식 노드가 크다
     - 왼쪽 자식 노드 < 부모 노드 < 오른쪽 자식 노드
     
-    
+---
+
 ## Dynamic Programming
 
 ## Shortest Path
