@@ -278,6 +278,7 @@
 
 ## Graph
 
+---
 ## 기타
 - 소수 찾기
     - math.sqrt를 사용하여 시간 복잡도 단축
@@ -287,5 +288,18 @@
     - 메모리가 많이 필요하다.
     - 1,000,000이내로 주어지는 경우에 사용한다.
         - 이론상 400만 번 정도의 연산으로 해결 가능
+    
+    
+    ```python
+    def aritos(n):
+        numbers = set(range(2, n+1))
+        
+        for i in range(numbers):
+            if i in numbers:
+                print(i)
+                numbers -= set(range(2*i, n+1, i))
+        return numbers
+    ```
+    
          
 ## Programmers
