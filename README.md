@@ -270,6 +270,9 @@
     - 부모 노드보다 오른쪽 자식 노드가 크다
     - 왼쪽 자식 노드 < 부모 노드 < 오른쪽 자식 노드
     
+- 예제
+    - [부품 찾기](https://github.com/JIWON1923/Algorithm/blob/master/Search/Practice2_findingPart.py)
+    - [떡볶이 떡 만들기](https://github.com/JIWON1923/Algorithm/blob/master/Search/Practice3_CuttingRiceCake.py)
 ---
 
 ## Dynamic Programming
