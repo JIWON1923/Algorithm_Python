@@ -55,3 +55,6 @@
         name = input()
         print (f'Hello {name}')
         ```
+
+- object 값 출력하기
+    - [1259번 팰린드롬수](https://github.com/JIWON1923/Algorithm/blob/master/BasicLevel/Class2/1259_palindrome.py) 를 풀며, reversed object와 str을 비교해야했다. 이를 해결하기 위해 join()을 이용하여 object를 str로 변경하여 풀 수 있었다.
