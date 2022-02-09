@@ -12,10 +12,11 @@
     
     ```python
     n = int(input())
-    number = set(range(2, n+1))
-    for i in number:
-        number -= set(range(i*2, n+1, i))
-    print(number)
+    numbers = set(range(2, n+1))
+    for i in range(n):
+        if i in numbers:
+            numbers -= set(range(i*2, n+1, i))
+    print(numbers)
     ```
 
 
