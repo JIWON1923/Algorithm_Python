@@ -20,6 +20,23 @@
     ```
 
 
+- 이진탐색 (Bynary Search)
+    
+    
+    ```python
+    while start <= end:
+        mid = (start + end)//2
+        if mid == target:
+            return mid
+        elif mid < target:
+            start = mid + 1
+        else:
+            end = mid - 1
+    ```
+    
+    
+    [x] [2805 나무자르기](https://www.acmicpc.net/problem/2805)    
+
 - 최대공약수와 최대공배수
     - 유클리드 호제법
         - 두 양의 정수 a, b (a>b)에 대해 a = bq + r (0 <= r < b)일 때
