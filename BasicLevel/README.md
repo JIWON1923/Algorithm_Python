@@ -43,6 +43,19 @@
         - a, b의 최대공약수는 b, r의 최대 공약수와 같다.
         - 즉, gcd(a, b) = gcd(b, r)
         - r = 0이라면 a, b의 최대공약수는 b이다.
+        
+        
+        ```python
+        def get_gcd(a, b):
+            while min(a,b):
+                a, b = max(a, b) % min(a, b), min(a, b)
+        
+        a, b = map(int, input().split()
+        gcd = get_gcd(a, b)
+        lcm = a*b // gcd
+        print(gcd, lcm)
+        ```
+        
 
 ## Python
 - print의 옵션
