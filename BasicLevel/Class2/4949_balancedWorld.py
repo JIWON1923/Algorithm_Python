@@ -14,7 +14,7 @@ while 1:
             if i == ']' and c != '[':
                 result = False
                 break
-            if i == ')' and c == '(':
+            if i == ')' and c != '(':
                 result = False
                 break
     if result and not len(stack):
