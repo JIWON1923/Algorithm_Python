@@ -1,36 +1,26 @@
-move = [-3, -1, 1, 3]
-
-
 def solution(numbers, hand):
-    left, right = 10, 10
     answer = ''
-
+    left, right = 10, 12
     for num in numbers:
-        if num in [2, 5, 8, 0]:
-            tmp = 0
-            for i in move:
-                if left + i == num:
-                    tmp += 1
-                if right + i == num:
-                    tmp += 2
-            if tmp == 3 or 0:
-                if hand == "left":
-                    left = num
-                    answer += "L"
-                else:
-                    right = num
-                    answer += "R"
-            elif tmp == 1:
-                left = num
-                answer += "L"
-            elif tmp == 2:
-                right = num
-                answer += "R"
-
-        elif num in [1, 4, 7]:
-            left = num
+        if num in [1, 4, 7]:
             answer += "L"
-        else:
-            right = num
+            left = num
+        elif num in [3, 6, 9]:
             answer += "R"
+            right = num
+        else:
+            num = 11 if num == 0 else num
+            if sum(divmod(abs(left-num), 3)) > sum(divmod(abs(right-num), 3)):
+                answer += "R"
+                right = num
+            elif sum(divmod(abs(left-num), 3)) == sum(divmod(abs(right-num), 3)):
+                if hand == "left":
+                    answer += "L"
+                    left = num
+                else:
+                    answer += "R"
+                    right = num
+            else:
+                answer += "L"
+                left = num
     return answer
