@@ -55,7 +55,7 @@
 - [x] [[1차] 비밀지도](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/secretMap.py)
 - [x] [실패율](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/failureRate.py)
 - [x] [크레인 인형뽑기 게임](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/crewMachineGame.py)
-- [ ] 키패드 누르기
+- [x] [키패드 누르기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/pressTheKeypad.py)
 - [x] [숫자 문자열과 영단어](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/numberStringAndWords.py)[ ✏️](https://zest1923.tistory.com/61)
 - [x] [신규 아이디 추천](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/IDRecommendation.py)
 
@@ -73,7 +73,7 @@
 - [x] [없는 숫자 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/sumOfCertainNumber.py)
 
 ### Summer/Winter Coding
-- [ ] 소수 만들기 
+- [x] [소수 만들기](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/MakingAPrimeNumber.py)
 - [x] [예산](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/budget.py)
 
 
@@ -85,7 +85,7 @@
 
 ### 기타
 - [x] 체육복
-- [ ] 모의고사
+- [x] [모의고사](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/test.py)
 - [x] [K번째 수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/KthNumber.py)
 - [x] [완주하지 못한 선수](https://github.com/JIWON1923/Algorithm/blob/master/Programmers/Level1/finishAMarathon.py)
 ---
