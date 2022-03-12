@@ -96,3 +96,17 @@
 
 - object 값 출력하기
     - [1259번 팰린드롬수](https://github.com/JIWON1923/Algorithm/blob/master/BasicLevel/Class2/1259_palindrome.py) 를 풀며, reversed object와 str을 비교해야했다. 이를 해결하기 위해 join()을 이용하여 object를 str로 변경하여 풀 수 있었다.
+
+- int형 리스트 출력하기
+    - 대문자, 쉼표 없이 숫자만 출력하고 싶을 때
+    - join과 repr을 사용한다.
+    
+    
+    ```python
+    result = [1, 2, 3, 4]
+    print(' '.join(repr(i) for i in result))
+    ```
+    
+    - repr : 문자열로 변환해줌
+    - join : 해당 문자열을 붙여 출력
+    - 즉, result의 원소를 문자열로 바꾼 후 ' '로 연결해서 출력하라는 명령!!
