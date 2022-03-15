@@ -289,8 +289,12 @@
 - Bottom-Up 방식
     - 작은 문제부터 차근차근 답을 도출한다.
     
+- TIP
+    - 딱 봤을 때 시간초과날 것 같다!
+    - 이전 값을 계속 접근하는 부분이 있다!! (점화식처럼)
 - 예제
     - [피보나치 함수](https://github.com/JIWON1923/Algorithm/blob/master/Dynamic_Programming/1003_fiboFunction.py)
+    - [1,2,3 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Dynamic_Programming/9095_Add1,2,3.py)
     
 ## Shortest Path
 
