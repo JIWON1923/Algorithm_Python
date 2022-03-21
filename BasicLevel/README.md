@@ -1,26 +1,30 @@
 # Algorithm
 
 ## [알고리즘 확인](#algorithm)
+- [에라토스테네스의 체](#에라토스테네스의-체)
+- [이진탐색](#이진탐색)
+- [이진탐색 변형](#이진탐색-변형)
+- [최대공약수와 최대공배수](#최대공약수와 최대공배수)
 ## [헷갈리는 Python 문법](#python)
 
 
 ## Algorithm
-- 에라토스테네스의 체
-    - 소수 찾는 알고리즘
-    - set과 range를 이용해서 짧게 구현하자.
+### 에라토스테네스의 체
+- 소수 찾는 알고리즘
+- set과 range를 이용해서 짧게 구현하자.
     
     
-    ```python
-    n = int(input())
-    numbers = set(range(2, n+1))
-    for i in range(n):
-        if i in numbers:
-            numbers -= set(range(i*2, n+1, i))
-    print(numbers)
-    ```
+```python
+n = int(input())
+numbers = set(range(2, n+1))
+for i in range(n):
+    if i in numbers:
+        numbers -= set(range(i*2, n+1, i))
+print(numbers)
+```
 
 
-- 이진탐색 (Bynary Search)
+### 이진탐색
     
     
     ```python
@@ -35,14 +39,38 @@
     ```
     
     
-    [x] [2805 나무자르기](https://www.acmicpc.net/problem/2805)    
+[x] [2805 나무자르기](https://www.acmicpc.net/problem/2805)    
 
-- 최대공약수와 최대공배수
-    - 유클리드 호제법
-        - 두 양의 정수 a, b (a>b)에 대해 a = bq + r (0 <= r < b)일 때
-        - a, b의 최대공약수는 b, r의 최대 공약수와 같다.
-        - 즉, gcd(a, b) = gcd(b, r)
-        - r = 0이라면 a, b의 최대공약수는 b이다.
+
+### 이진탐색 변형
+- Upper bound, Lower bound
+    - 이진탐색의 변형으로, target이 제일 먼저 나온 인덱스, 마지막으로 나온 인덱스를 구할 수 있다.
+    
+    
+    ```python
+    def binary_search(target, isUpper):
+    start, end = 0, n
+    while start < end:
+        mid = (start + end) // 2
+        if numbers[mid] == target:
+            if isUpper: start = mid + 1
+            else: end = mid
+        elif numbers[mid] > target:
+            end = mid
+        else:
+            start = mid + 1
+    return start
+    ```
+    
+    
+[x] [10816 숫자카드2](https://github.com/JIWON1923/Algorithm/blob/master/BasicLevel/Class2/10816_numberCards2.py)
+
+### 최대공약수와 최대공배수
+- 유클리드 호제법
+    - 두 양의 정수 a, b (a>b)에 대해 a = bq + r (0 <= r < b)일 때
+    - a, b의 최대공약수는 b, r의 최대 공약수와 같다.
+    - 즉, gcd(a, b) = gcd(b, r)
+    - r = 0이라면 a, b의 최대공약수는 b이다.
         
         
         ```python
