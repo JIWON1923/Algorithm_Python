@@ -86,6 +86,19 @@ print(numbers)
         
 
 ## Python
+
+- dictionary 컴프리헨션
+    - value 중 최댓값 찾기
+    - [2108번 통계학](https://github.com/JIWON1923/Algorithm/blob/master/BasicLevel/Class2/2108_statistics.py)
+
+
+```python
+mode = sorted([k for k,v in cnt.items() if max(cnt.values()) == v])
+```
+
+
+
+
 - print의 옵션
     - separation: 구분자
         - 특정 문자로 구분하여 출력한다.
@@ -127,13 +140,16 @@ print(numbers)
 
 - int형 리스트 출력하기
     - 대문자, 쉼표 없이 숫자만 출력하고 싶을 때
-    - join과 repr을 사용한다.
+    - 방법 1) "Unpacking Operator *" 사용 (추천)
+    - 방법 2) join과 repr을 사용한다.
     
     
     ```python
     result = [1, 2, 3, 4]
     print(' '.join(repr(i) for i in result))
+    print(*result) # unpacking operator
     ```
+    
     
     - repr : 문자열로 변환해줌
     - join : 해당 문자열을 붙여 출력
