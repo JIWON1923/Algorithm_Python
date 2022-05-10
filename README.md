@@ -21,10 +21,10 @@
 - '가장 큰 순서', '가장 작은 순서' 등의 기준이 제시된다.
 
 - 예제
-    - [거스름돈](https://github.com/JIWON1923/Algorithm/blob/master/Greedy/change.py)
-    - [큰 수의 법칙](https://github.com/JIWON1923/Algorithm/blob/master/Greedy/law_of_large_number.py)
-    - [숫자 카드 게임](https://github.com/JIWON1923/Algorithm/blob/master/Greedy/number_card_game.py)
-    - [1이 될 때 까지](https://github.com/JIWON1923/Algorithm/blob/master/Greedy/until_1.py)
+    - [거스름돈](https://github.com/JIWON1923/Algorithm_Python/blob/master/Greedy/change.py)
+    - [큰 수의 법칙](https://github.com/JIWON1923/Algorithm_Python/blob/master/Greedy/law_of_large_number.py)
+    - [숫자 카드 게임](https://github.com/JIWON1923/Algorithm_Python/blob/master/Greedy/number_card_game.py)
+    - [1이 될 때 까지](https://github.com/JIWON1923/Algorithm_Python/blob/master/Greedy/until_1.py)
 
 ---
 ## Implement
@@ -35,10 +35,10 @@
 - Pypy3를 지원한다면, 이를 이용해서 제출하자. (실행시간 줄어듦)
 
 - 예제
-    - [상하좌우](https://github.com/JIWON1923/Algorithm/blob/master/Implement/Top_Down_Left_Right.py)
-    - [시각](https://github.com/JIWON1923/Algorithm/blob/master/Implement/time.py)
-    - [왕실의 나이트](https://github.com/JIWON1923/Algorithm/blob/master/Implement/royal_night.py)
-    - [게임 개발](https://github.com/JIWON1923/Algorithm/blob/master/Implement/game_develpment.py)
+    - [상하좌우](https://github.com/JIWON1923/Algorithm_Python/blob/master/Implement/Top_Down_Left_Right.py)
+    - [시각](https://github.com/JIWON1923/Algorithm_Python/blob/master/Implement/time.py)
+    - [왕실의 나이트](https://github.com/JIWON1923/Algorithm_Python/blob/master/Implement/royal_night.py)
+    - [게임 개발](https://github.com/JIWON1923/Algorithm_Python/blob/master/Implement/game_develpment.py)
 
 ---
 ## DFS-BFS
@@ -86,10 +86,10 @@
     
     
 - 예제
-    - [DFS](https://github.com/JIWON1923/Algorithm/blob/master/DFS_BFS/DFS.py)
-    - [BFS](https://github.com/JIWON1923/Algorithm/blob/master/DFS_BFS/BFS.py)
-    - [음료수 얼려 먹기](https://github.com/JIWON1923/Algorithm/blob/master/DFS_BFS/freeze_A_Drink_best.py)
-    - [미로 탈출](https://github.com/JIWON1923/Algorithm/blob/master/DFS_BFS/maze_best.py)
+    - [DFS](https://github.com/JIWON1923/Algorithm_Python/blob/master/DFS_BFS/DFS.py)
+    - [BFS](https://github.com/JIWON1923/Algorithm_Python/blob/master/DFS_BFS/BFS.py)
+    - [음료수 얼려 먹기](https://github.com/JIWON1923/Algorithm_Python/blob/master/DFS_BFS/freeze_A_Drink_best.py)
+    - [미로 탈출](https://github.com/JIWON1923/Algorithm_Python/blob/master/DFS_BFS/maze_best.py)
 ---
 
 ## Sort
@@ -180,9 +180,9 @@
     
    
 - 예제
-    - [위에서 아래로](https://github.com/JIWON1923/Algorithm/blob/master/Sort/Top_Down.py)
-    - [성적이 낮은 순서로 학생 출력하기](https://github.com/JIWON1923/Algorithm/blob/master/Sort/InOrderOf_Score.py)
-    - [두 배열의 원소 교체](https://github.com/JIWON1923/Algorithm/blob/master/Sort/Replacement_Array.py)
+    - [위에서 아래로](https://github.com/JIWON1923/Algorithm_Python/blob/master/Sort/Top_Down.py)
+    - [성적이 낮은 순서로 학생 출력하기](https://github.com/JIWON1923/Algorithm_Python/blob/master/Sort/InOrderOf_Score.py)
+    - [두 배열의 원소 교체](https://github.com/JIWON1923/Algorithm_Python/blob/master/Sort/Replacement_Array.py)
     
 ---
 ## Binary Search
@@ -271,8 +271,8 @@
     - 왼쪽 자식 노드 < 부모 노드 < 오른쪽 자식 노드
     
 - 예제
-    - [부품 찾기](https://github.com/JIWON1923/Algorithm/blob/master/Search/Practice2_findingPart.py)
-    - [떡볶이 떡 만들기](https://github.com/JIWON1923/Algorithm/blob/master/Search/Practice3_CuttingRiceCake.py)
+    - [부품 찾기](https://github.com/JIWON1923/Algorithm_Python/blob/master/Search/Practice2_findingPart.py)
+    - [떡볶이 떡 만들기](https://github.com/JIWON1923/Algorithm_Python/blob/master/Search/Practice3_CuttingRiceCake.py)
 ---
 
 ## Dynamic Programming
@@ -293,9 +293,9 @@
     - 딱 봤을 때 시간초과날 것 같다!
     - 이전 값을 계속 접근하는 부분이 있다!! (점화식처럼)
 - 예제
-    - [피보나치 함수](https://github.com/JIWON1923/Algorithm/blob/master/Dynamic_Programming/1003_fiboFunction.py)
-    - [1,2,3 더하기](https://github.com/JIWON1923/Algorithm/blob/master/Dynamic_Programming/9095_Add1,2,3.py)
-    - [RGB 거리](https://github.com/JIWON1923/Algorithm/blob/master/Dynamic_Programming/1149_RGBStreet.py)
+    - [피보나치 함수](https://github.com/JIWON1923/Algorithm_Python/blob/master/Dynamic_Programming/1003_fiboFunction.py)
+    - [1,2,3 더하기](https://github.com/JIWON1923/Algorithm_Python/blob/master/Dynamic_Programming/9095_Add1,2,3.py)
+    - [RGB 거리](https://github.com/JIWON1923/Algorithm_Python/blob/master/Dynamic_Programming/1149_RGBStreet.py)
     
 ## Shortest Path
 
