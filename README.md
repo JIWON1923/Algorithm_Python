@@ -11,7 +11,7 @@
 - [Graph](#graph)
 - [기타](#기타)
 
-## [프로그래머스](https://github.com/JIWON1923/Algorithm/tree/master/Programmers)
+## [프로그래머스](https://github.com/JIWON1923/Algorithm_Python/tree/master/Programmers)
 
 
 ## Greedy
